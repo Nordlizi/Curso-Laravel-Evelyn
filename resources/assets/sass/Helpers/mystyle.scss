@@ -55,12 +55,12 @@ video#bgvid {
     -moz-transform: translateX(-50%) translateY(-0%);
     -webkit-transform: translateX(-50%) translateY(-0%);
     transform: translateX(-50%) translateY(-0%);
-    background: url(../img/evelyn_background.jpg) no-repeat;
+    background: url(../../img/evelyn_background.jpg) no-repeat;
     background-size: cover; 
 }
 @media screen and (max-device-width: 800px) {
     html {
-         background: url(../img/evelyn_background.jpg) #131c2b no-repeat center top fixed;
+         background: url(../../img/evelyn_background.jpg) #131c2b no-repeat center top fixed;
     }
     #bgvid {
         display: none;
@@ -311,28 +311,28 @@ transition-timing-function:ease;}
   height:300px;
   border-top: 8px solid #DCB13F ;
   border-bottom: 8px solid #8cb257 ;
-  background:url(../img/evelyn_header_acerca.jpg) #8cb257 no-repeat center top fixed;
+  background:url(../../img/evelyn_header_acerca.jpg) #8cb257 no-repeat center top fixed;
   background-size: cover;
 }
 .header-servicios{
   height:300px;
   border-top: 8px solid #8cb257 ;
   border-bottom: 8px solid #3f6adc ;
-  background:url(../img/evelyn_header_servicios.jpg) #3f6adc no-repeat center top fixed;
+  background:url(../../img/evelyn_header_servicios.jpg) #3f6adc no-repeat center top fixed;
   background-size: cover;
 }
 .header-historias{
   height:300px;
   border-top: 8px solid #3f6adc ;
   border-bottom: 8px solid #DCB13F ;
-  background:url(../img/evelyn_header_historias.jpg) #DCB13F no-repeat center top fixed;
+  background:url(../../img/evelyn_header_historias.jpg) #DCB13F no-repeat center top fixed;
   background-size: cover;
 }
 .header-contacto{
   height:300px;
   border-top: 8px solid #3f6adc ;
   border-bottom: 8px solid #dc3f6a ;
-  background:url(../img/evelyn_header_contacto.jpg) #dc3f6a no-repeat center top fixed;
+  background:url(../../img/evelyn_header_contacto.jpg) #dc3f6a no-repeat center top fixed;
   background-size: cover;
 }
 
