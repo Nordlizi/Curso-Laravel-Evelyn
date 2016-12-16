@@ -722,7 +722,11 @@ Ofrezco con experiencia y formación, la capacitación adecuada en cuanto a la e
   <!-- sub-sección #Contacto-a -->
   <div id="contacto-a">
   
-   @include('home.evelyn.formulario') 
+   {{-- @include('home.evelyn.formulario')  --}}
+
+
+   
+
   </div><!-- /sub-section #contacto-a -->
 
 
