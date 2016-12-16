@@ -502,7 +502,7 @@ background: -o-linear-gradient(left, rgba(52,82,99,1) 0%, rgba(19,28,43,1) 50%, 
 background: -ms-linear-gradient(left, rgba(52,82,99,1) 0%, rgba(19,28,43,1) 50%, rgba(52,82,99,1) 100%);
 background: linear-gradient(to right, rgba(52,82,99,1) 0%, rgba(19,28,43,1) 50%, rgba(52,82,99,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#345263', endColorstr='#345263', GradientType=1 );
-}}
+}
 @media (max-width: 399px){.navbar{display:block;}}
 
 /*--- NAVBAR DE DEGRADE CAMBIANTE
@@ -738,7 +738,7 @@ a>div.service-box:focus{
   outline:none;}
 a>div.service-box:hover{
   background-color:#60a4e2;}
-}
+
 
 
 @media (min-width: 960px) and (max-width: 1420px){
@@ -782,7 +782,7 @@ a>div.service-minibox:focus{
   outline:none;}
 a>div.service-minibox:hover{
   background-color:#60a4e2;}
-}
+
 a>div.service-minibox.active{
   background-color:#60a4e2;
 }
