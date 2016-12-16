@@ -118,23 +118,12 @@
 
 
 
-  <!--bg video-->
-<video autoplay loop poster="img/evelyn_background.jpg" id="bgvid">
-    <source src="img/evelyn_background.webm" type="video/webm"></source>
+<!--bg video-->
+<video autoplay loop poster="img/evelyn_background.jpg" id="bgvid">    
     <source src="img/evelyn_background.mp4" type="video/mp4"></source>
 </video>
 
 <div id="content">
-
-
-
-
-
-
-
-
-
-
   <!--navigation bar-->
   <nav class="navbar navbar-default navbar-fixed-top" id="mynavbar">
     <div class="container-fluid row">
@@ -882,7 +871,13 @@ Ofrezco con experiencia y formación, la capacitación adecuada en cuanto a la e
 <a href="#0" class="cd-top">Top</a>
 
 
-
+<!-- mis nav-tabs que son divs en vez de ser ul y li //  funciona!! :D --> 
+  <script>
+  $('div.nav-tabs a div').click(function (e) {
+    $('div.nav-tabs a div.active').removeClass('active')
+    $(this).addClass('active')
+  })
+  </script>
 
 
 </div><!--global wrapper-->

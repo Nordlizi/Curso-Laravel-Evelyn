@@ -7,13 +7,7 @@
 
  
 
-<!-- mis nav-tabs que son divs en vez de ser ul y li //  funciona!! :D --> 
-  <script>
-  $('div.nav-tabs a div').click(function (e) {
-    $('div.nav-tabs a div.active').removeClass('active')
-    $(this).addClass('active')
-  })
-  </script>
+
 
     <!-- SMOOTH SCROLL -->
   <script>
