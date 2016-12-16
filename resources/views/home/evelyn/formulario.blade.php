@@ -11,6 +11,10 @@
             <div class="">
 
                 <div class="">
+                <!-- errores -->
+                <div class="contendor-errores-header">         
+                  @include('partials.Alertas_Todos_Agrupados.alertas_agrupados') 
+                </div> 
 
                     <h4 class="wow fadeInUp delay1"><span class="glyphicon glyphicon-chevron-right color-contacto" style="font-size:70%"></span> Envíame un mensaje</h4>
 

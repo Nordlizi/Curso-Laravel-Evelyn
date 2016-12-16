@@ -721,10 +721,7 @@ Ofrezco con experiencia y formación, la capacitación adecuada en cuanto a la e
 
   <!-- sub-sección #Contacto-a -->
   <div id="contacto-a">
-  <!-- errores -->
-    <div class="contendor-errores-header">         
-      @include('partials.Alertas_Todos_Agrupados.alertas_agrupados') 
-    </div> 
+  
    @include('home.evelyn.formulario') 
   </div><!-- /sub-section #contacto-a -->
 
