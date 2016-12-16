@@ -184,6 +184,11 @@
 </div>
 </div>
 
+ <!-- errores -->
+    <div class="contendor-contenedor-errores-header">         
+      @include('partials.Alertas_Todos_Agrupados.alertas_agrupados') 
+    </div> 
+
 <a class="smoothScroll" href="#continue" style="outline:none"><div class="explorar center-block"><span class="glyphicon glyphicon-chevron-down explorar-glyph"></span></div></a>
 
 </div>
