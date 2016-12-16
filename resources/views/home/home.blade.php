@@ -184,10 +184,7 @@
 </div>
 </div>
 
- <!-- errores -->
-    <div class="contendor-contenedor-errores-header">         
-      @include('partials.Alertas_Todos_Agrupados.alertas_agrupados') 
-    </div> 
+
 
 <a class="smoothScroll" href="#continue" style="outline:none"><div class="explorar center-block"><span class="glyphicon glyphicon-chevron-down explorar-glyph"></span></div></a>
 
@@ -724,6 +721,10 @@ Ofrezco con experiencia y formación, la capacitación adecuada en cuanto a la e
 
   <!-- sub-sección #Contacto-a -->
   <div id="contacto-a">
+  <!-- errores -->
+    <div class="contendor-contenedor-errores-header">         
+      @include('partials.Alertas_Todos_Agrupados.alertas_agrupados') 
+    </div> 
    @include('home.evelyn.formulario') 
   </div><!-- /sub-section #contacto-a -->
 
