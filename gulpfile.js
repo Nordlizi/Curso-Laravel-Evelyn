@@ -16,6 +16,9 @@ elixir(function(mix) {
        .version(['css/app.css']);
 
     mix.scripts([
+        'preloader.js',
+        'wow.js',
+        'wow.min.js',
         'Plug-jquery-1.11.3.min.js',        
         'Plug-bootstrap-notify.min.js',        
         'Plug-bootstrap.min.js',
@@ -29,9 +32,7 @@ elixir(function(mix) {
         'Plug-validator-Boostrap.js',
         'Plug-texarea-Te_v1.js',
         'inicio.js',
-        'preloader.js',
-        'wow.js',
-        'wow.min.js',
+        
         'main.js',
         'mis-funciones_personalizadas.js',
         'mis-funciones_personalizadas_para_GoogleAnalitics.js',        
