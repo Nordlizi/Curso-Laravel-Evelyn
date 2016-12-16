@@ -80,10 +80,7 @@ class EmailsRepo
 
                      $m->from($email, $nombre);
 
-                     $m->to( $this->getEmpresa()
-                                  ->email, 
-                             $this->getEmpresa()
-                                  ->name)->subject('Consulta de '.$nombre );
+                     $m->to( 'ventas@worldmaster.com.uy','Evelyn ')->subject('Consulta de '.$nombre );
                    }
          );
 
