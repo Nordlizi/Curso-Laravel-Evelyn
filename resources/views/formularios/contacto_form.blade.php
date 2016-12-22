@@ -15,7 +15,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">                    
-                    {!! Form::label('name', 'Nombre') !!}
+                    {!! Form::label('name', 'Nombre *') !!}
                     {!! Form::text('name', null ,['class'       => 'form-control',
                                                   'placeholder' => 'Escribe tu nombre aquí *' ,
                                                   'required'    => 'required',
@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">                    
-                    {!! Form::label('email', 'Email') !!}
+                    {!! Form::label('email', 'Email *') !!}
                     {!! Form::text('email', null ,['class'       => 'form-control',
                                                   'placeholder' => 'Escribe tu dirección de correo aquí *' ,
                                                   'required'    => 'required',

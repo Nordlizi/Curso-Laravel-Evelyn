@@ -6,7 +6,7 @@
               
               </div>
               <div class="Error-iconoCerrar">
-                <span class="icon-highlight_remove">
+                <span class="glyphicon glyphicon-remove">
                    
                 </span>
               </div>
