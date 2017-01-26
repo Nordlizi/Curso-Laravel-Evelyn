@@ -34,6 +34,38 @@ class Envio_Formularios_Controller extends Controller
         $entidad = '';
         $manager = new envio_contacto_manager($entidad,$Request->all());
 
+        //si la peticion es por ajax
+        if($Request->ajax())
+        {
+            
+            
+              if ($manager->isValid())
+              {
+               
+               //envio el email de la contacto
+               $this->EmailsRepo->EnvioEmailDeContacto($Request);
+
+               return response()->json(
+                [ 
+                    'validation'  => true,
+                    'mensaje'     => 'mensaje enviado correctamente',
+                                       
+                ]
+               );     
+              }
+              else
+              {
+                return response()->json(
+                [ 
+                    'validation'  => false,
+                    'mensaje'     => 'Verifica lo siguiente:'. $manager->getErrors(),
+                                       
+                ]
+               );  
+
+              }  
+        }
+
 
         if ($manager->isValid())
         {

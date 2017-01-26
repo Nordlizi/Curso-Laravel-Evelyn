@@ -85,7 +85,7 @@
                
             </div>
             <div class="col-md-12">
-                <input type="submit" class="btn btn-primary btn-lg btn-send" value="Enviar">
+              <input type="submit" class="btn btn-primary btn-lg btn-send" id="enviar-contacto" value="Enviar">                
             </div>
         </div>
 
