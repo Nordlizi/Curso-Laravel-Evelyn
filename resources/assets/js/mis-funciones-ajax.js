@@ -30,7 +30,12 @@ $('body').on('click','#enviar-contacto',function(e){
         message: resul.mensaje 
         },{
         // settings
-        type: 'success'
+        type: 'success',
+
+      placement: {
+        from: "top",
+        align: "center"
+      }
         });
         
       }
@@ -42,7 +47,11 @@ $('body').on('click','#enviar-contacto',function(e){
         message: resul.mensaje 
         },{
         // settings
-        type: 'danger'
+        type: 'danger',
+      placement: {
+        from: "top",
+        align: "center"
+      }
         });
       }
 
