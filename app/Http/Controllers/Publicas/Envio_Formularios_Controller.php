@@ -48,7 +48,7 @@ class Envio_Formularios_Controller extends Controller
                return response()->json(
                 [ 
                     'validation'  => true,
-                    'mensaje'     => 'mensaje enviado correctamente',
+                    'mensaje'     => 'Mensaje enviado correctamente',
                                        
                 ]
                );     
