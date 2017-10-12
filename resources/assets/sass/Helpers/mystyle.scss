@@ -499,6 +499,7 @@ div.medal-well-right > p {
   border-radius: 0px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  /*---
 background: rgba(52,82,99,1);
 background: -moz-linear-gradient(left, rgba(52,82,99,1) 0%, rgba(19,28,43,1) 50%, rgba(52,82,99,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,82,99,1)), color-stop(50%, rgba(19,28,43,1)), color-stop(100%, rgba(52,82,99,1)));
@@ -507,7 +508,15 @@ background: -o-linear-gradient(left, rgba(52,82,99,1) 0%, rgba(19,28,43,1) 50%, 
 background: -ms-linear-gradient(left, rgba(52,82,99,1) 0%, rgba(19,28,43,1) 50%, rgba(52,82,99,1) 100%);
 background: linear-gradient(to right, rgba(52,82,99,1) 0%, rgba(19,28,43,1) 50%, rgba(52,82,99,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#345263', endColorstr='#345263', GradientType=1 );
-}
+} ---*/
+background: #cfe2b3; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #cfe2b3 0%, #bddaa0 32%, #a3be96 69%, #89af7e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #cfe2b3 0%,#bddaa0 32%,#a3be96 69%,#89af7e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #cfe2b3 0%,#bddaa0 32%,#a3be96 69%,#89af7e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe2b3', endColorstr='#89af7e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+} 
+
+
 @media (max-width: 399px){.navbar{display:block;}}
 
 /*--- NAVBAR DE DEGRADE CAMBIANTE
@@ -551,19 +560,18 @@ animation: AnimationName 59s ease infinite;
   color: #DCB13F;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #DCB13F;
+  color: #b8712f;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffe868;
+  color: #ebf8e4;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffe868;
-  text-shadow: 0 0 5px #DCB13F, 0 0 10px #ffdd1b;
-  background-color: #3b5f73;
+  color: #dec067;
+  background-color: #CFE2B3;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -1038,21 +1046,21 @@ label {
 @-webkit-keyframes neon3 {
   from {
     color:#ffe868;
-    text-shadow: 0 0 10px #ffdd1b, 0 0 20px #ffdd1b, 0 0 30px #ffdd1b, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #ffd901, 0 0 100px #e7c500, 0 0 150px #ceaf00;
+    text-shadow: 0 0 10px #f4c842, 0 0 20px #f4c842, 0 0 30px #f4c842, 0 0 40px #f4c842, 0 0 70px #f4c842, 0 0 80px #ffd901, 0 0 100px #e7c500, 0 0 150px #ceaf00;
   }
   to {
     color:#fff3ad;
-    text-shadow: 0 0 5px #ffdd1b, 0 0 10px #ffdd1b, 0 0 15px #ffdd1b, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #ffd901, 0 0 50px #e7c500, 0 0 75px #ceaf00;
+    text-shadow: 0 0 5px #f4c842, 0 0 10px #f4c842, 0 0 15px #f4c842, 0 0 20px #f4c842, 0 0 35px #f4c842, 0 0 40px #ffd901, 0 0 50px #e7c500, 0 0 75px #ceaf00;
   }
 }
 @keyframes neon3 {
   from {
     color:#ffe868;
-    text-shadow: 0 0 10px #ffdd1b, 0 0 20px #ffdd1b, 0 0 30px #ffdd1b, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #ffd901, 0 0 100px #e7c500, 0 0 150px #ceaf00;
+    text-shadow: 0 0 10px #f4c842, 0 0 20px #f4c842, 0 0 30px #f4c842, 0 0 40px #f4c842, 0 0 70px #f4c842, 0 0 80px #ffd901, 0 0 100px #e7c500, 0 0 150px #ceaf00;
   }
   to {
     color:#fff3ad;
-    text-shadow: 0 0 5px #ffdd1b, 0 0 10px #ffdd1b, 0 0 15px #ffdd1b, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #ffd901, 0 0 50px #e7c500, 0 0 75px #ceaf00;
+    text-shadow: 0 0 5px #f4c842, 0 0 10px #f4c842, 0 0 15px #f4c842, 0 0 20px #f4c842, 0 0 35px #f4c842, 0 0 40px #ffd901, 0 0 50px #e7c500, 0 0 75px #ceaf00;
   }
 }
 
