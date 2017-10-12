@@ -153,7 +153,7 @@ h2{
   text-align:center;
   font-family: GatsbyItalic,Helvetica,Arial;
   font-size: 80px;
-  color: #E8D1D8;
+  color: #fff;
 }
 
 h3{
@@ -240,10 +240,10 @@ de bootstrap usar esas (.small,.big,etc., y borrar este ---*/
 
 .explorar{
 margin-top:100px;
-color:#E8D1D8;
+color:#fff;
 background:transparent;
 padding:10px;
-border:solid 2px #E8D1D8;
+border:solid 2px #fff;
 border-radius:100%;
 width:100px;
 height:100px;
@@ -288,7 +288,11 @@ transition-timing-function:ease;}
 
 
 /*--- * * * * SECTIONS * * * * ---*/
-#home{}
+#home{
+  color:$color-white;
+  background: $color-3 url("../../img/zzz_new_background1.jpg") no-repeat center;
+  background-size:cover;
+}
 #home-a {min-height:700px;padding-top:90px;}
   @media (max-width: 399px) {#home-a{min-height:500px;}}
 #home-b{padding-top:50px;padding-bottom:50px;margin-top:40px;margin-bottom:80px;}
@@ -306,6 +310,7 @@ transition-timing-function:ease;}
 #contacto { background-color: white;}
 #contacto-a {padding-top:40px;padding-bottom: 40px;overflow:hidden;}
 #contacto-b {padding-top:40px;overflow:hidden;}
+
 
 .header-acerca{
   height:300px;
@@ -1059,14 +1064,14 @@ label {
 
 /* ANIMATION FOR BLACK LINKS AT #HOME */
 .header-links{
-  color:black;
+  color: #51392d;
   text-align:center;
   font-size:20px;
   margin-top:-6px;
 }
 
 .header-links > a{
-  color:black;
+  color:#51392d;
   text-decoration:none;
   position: relative;
   padding:6px 20px 6px 20px;
@@ -1078,7 +1083,7 @@ label {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: black;
+  background-color: #51392d;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);

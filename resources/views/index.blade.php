@@ -180,10 +180,10 @@
 
 
   <!--bg video-->
-<video autoplay loop poster="img/evelyn_background.jpg" id="bgvid">
+ <!--<video autoplay loop poster="img/evelyn_background.jpg" id="bgvid">
     <source src="img/evelyn_background.webm" type="video/webm"></source>
     <source src="img/evelyn_background.mp4" type="video/mp4"></source>
-</video>
+</video>-->
 
 <div id="content">
 
@@ -235,7 +235,7 @@
 
 
 <!-- SECCIÓN #home COMPLETA -->
-<div id="home">
+<div class="section-special-new-header" id="home">
 <!-- sub-sección #home-a -->
 <div id="home-a">
 <div class="container-fluid">

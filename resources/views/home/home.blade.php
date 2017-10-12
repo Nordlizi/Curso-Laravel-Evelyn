@@ -119,9 +119,9 @@
 
 
 <!--bg video-->
-<video autoplay loop poster="img/evelyn_background.jpg" id="bgvid">    
+<!--<video autoplay loop poster="img/evelyn_background.jpg" id="bgvid">    
     <source src="img/evelyn_background.mp4" type="video/mp4"></source>
-</video>
+</video>-->
 
 <div id="content">
   <!--navigation bar-->
