@@ -112,7 +112,7 @@ p {
   text-decoration: none;
   font-family: Helvetica45Light,Helvetica,Arial;
   font-size:20px;
-  color:#808080;
+  color:#737373;
   cursor:default;
   text-align:justify;
 }
@@ -168,7 +168,7 @@ h4{
   font-size: 34px;
   cursor:default;
   text-align:left;
-  color:#808080;
+  color:#737373;
 }
 
 
@@ -560,7 +560,7 @@ animation: AnimationName 59s ease infinite;
   color: #DCB13F;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #b8712f;
+  color: #737373;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -570,13 +570,14 @@ animation: AnimationName 59s ease infinite;
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #dec067;
-  background-color: #CFE2B3;
+  color: #ebf8e4;
+  background-color: #c3dba1
+;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
-  color: #808080;
+  color: #737373;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -622,7 +623,7 @@ animation: AnimationName 59s ease infinite;
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #808080;
+    color: #737373;
     background-color: transparent;
   }
 }
@@ -646,7 +647,7 @@ border: 0px solid #4D4D4D;
 border: 0px solid rgba(0, 0, 0, 0);
   }
 .dropdown-menu .divider {
-  background-color: #808080;
+  background-color: #737373;
 }
 .dropdown-menu > li > a {
     color: #4D4D4D;
@@ -726,11 +727,19 @@ border: 0px solid rgba(0, 0, 0, 0);
 .service-datos{
   min-height:200px;
 }
+.service-box-container{
+  @include flexbox;
+  @include flex-direction(row);
+  @include align-items(stretch);
+  @include justify-content(space-between);
+  @include flex-wrap(nowrap);
+  width: 100%;
+}
 a>div.service-box{
-  height: 100px;
-  border:5px solid white;
   cursor:pointer;
-  position:relative;
+  padding: 20px 10px;
+  border: 4px solid white;
+  min-height: 200px;
 }
 a>div.service-box.active{
   background-color:#60a4e2;}
@@ -754,11 +763,6 @@ a>div.service-box:hover{
 
 
 
-@media (min-width: 960px) and (max-width: 1420px){
-a>div.service-box {min-height:120px;}}
-
-
-
 div.service-box > h4{
   color:white;
   cursor:pointer;
@@ -766,27 +770,26 @@ div.service-box > h4{
   line-height: 24px;
   font-weight:600;
   text-align:right;
-  position:relative;
+  outline:none;
+  text-decoration: none !important;
 
 }
 div.service-box > h5{
   color:white;
   cursor:pointer;
   text-align:right;
-  position:absolute;
-  bottom:0px;
-  right:15px;
-  margin-left:15px;
+  outline:none;
+  text-decoration: none !important;
 }
 
 a>div.service-minibox{
   font-size:20px;
+  padding: 20px;
   color:white;
   cursor:pointer;
-  border:5px solid white;
   text-align:center;
-  margin-bottom:10px;
   background-color:#60a4e2;
+  border: 4px solid white;
 }
 a>div.service-minibox:not(.active){
    background-color:#3f6adc;
@@ -828,6 +831,16 @@ transition: all 0.5s ease;
 }
 a.contactarme:hover{
   color:#eb92aa;
+ }
+
+ a.blog-link p.text-footer-normal:hover{
+  cursor: pointer !important;
+  color: #DCB13F !important;
+ }
+
+  a.blog-link p.text-footer-normal:hover span.glyphicon{
+  cursor: pointer !important;
+  color: #DCB13F !important;
  }
 
 
@@ -916,7 +929,7 @@ fieldset[disabled] .btn-success.focus {
 }
 
 label {
-    color: #808080;}
+    color: #737373;}
 
 
 
@@ -1072,14 +1085,14 @@ label {
 
 /* ANIMATION FOR BLACK LINKS AT #HOME */
 .header-links{
-  color: #51392d;
+  color: #737373;
   text-align:center;
   font-size:20px;
   margin-top:-6px;
 }
 
 .header-links > a{
-  color:#51392d;
+  color:#737373;
   text-decoration:none;
   position: relative;
   padding:6px 20px 6px 20px;
@@ -1091,7 +1104,7 @@ label {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #51392d;
+  background-color: #737373;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);

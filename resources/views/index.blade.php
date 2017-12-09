@@ -682,15 +682,17 @@
 
 
 <!-- mini-boxes -->
-<div role="tablist" class="container-fluid visible-xs wow fadeInUp delay1 nav nav-tabs" style="border-bottom:none;">
+<div role="tablist" class="service-box-container visible-xs wow fadeInUp delay1 nav nav-tabs" style="border-bottom:none;">
 <a href="#consultas" data-toggle="tab" role="tab" aria-controls="tab1">
-<div class="service-minibox col-xs-3 active">1</div></a>
+<div class="service-minibox active">1</div></a>
 <a href="#talleres" data-toggle="tab" role="tab" aria-controls="tab2">
-<div class="service-minibox col-xs-3">2</div></a>
+<div class="service-minibox ">2</div></a>
 <a href="#empresarial" data-toggle="tab" role="tab" aria-controls="tab3">
-<div class="service-minibox col-xs-3">3</div></a>
+<div class="service-minibox ">3</div></a>
 <a href="#capacitacion" data-toggle="tab" role="tab" aria-controls="tab4">
-<div class="service-minibox col-xs-3">4</div></a>
+<div class="service-minibox ">4</div></a>
+<a href="#psicoestetica" data-toggle="tab" role="tab" aria-controls="tab5">
+<div class="service-minibox ">5</div></a>
 </div>
 
 
@@ -733,26 +735,38 @@ Ofrezco con experiencia y formación, la capacitación adecuada en cuanto a la e
 -Números y vida.<br>
 </p></div>
 
+<div role="tabpanel" class="tab-pane fade" id="psicoestetica">
+<h4><span class="glyphicon glyphicon-chevron-right color-servicios" style="font-size:70%"></span> Psicoestética</h4><p>
+Acompasando la imagen con la vida.<br><br>
+
+Los años pasan y van generando cambios, no sólo a nivel físico, sino en la manera de comprender la vida.<br>
+Actualizar tu imagen es acompasar tu interioridad.<br>
+</p></div>
+
 </div><!-- /service datos row -->
 
 
 <!-- service boxes row -->
-<div role="tablist" class="container-fluid hidden-xs wow fadeInUp delay3 nav nav-tabs" style="border-bottom:none; padding-top:10px; padding-bottom:20px;">
+<div role="tablist" class="service-box-container hidden-xs wow fadeInUp delay3 nav nav-tabs" style="border-bottom:none; padding-top:10px; padding-bottom:20px;">
 
-<a href="#consultas" data-toggle="tab" role="tab" aria-controls="tab1"><div class="bg-servicios service-box col-xs-6 col-lg-3 active">
+<a href="#consultas" data-toggle="tab" role="tab" aria-controls="tab1"><div class="bg-servicios service-box active">
 <h4>Consultas individuales</h4><br><h5>Niños, adolescentes o adultos</h5>
 </div></a>
 
-<a href="#talleres" data-toggle="tab" role="tab" aria-controls="tab2"><div class="bg-servicios service-box col-xs-6 col-lg-3">
+<a href="#talleres" data-toggle="tab" role="tab" aria-controls="tab2"><div class="bg-servicios service-box">
 <h4>Talleres</h4><br><h5>Individuales o colectivos</h5>
 </div></a>
 
-<a href="#empresarial" data-toggle="tab" role="tab" aria-controls="tab3"><div class="bg-servicios service-box col-xs-6 col-lg-3">
+<a href="#empresarial" data-toggle="tab" role="tab" aria-controls="tab3"><div class="bg-servicios service-box">
 <h4>Servicio empresarial</h4><br><h5>Talleres motivacionales de equipo</h5>
 </div></a>
 
-<a href="#capacitacion" data-toggle="tab" role="tab" aria-controls="tab4"><div class="bg-servicios service-box col-xs-6 col-lg-3">
+<a href="#capacitacion" data-toggle="tab" role="tab" aria-controls="tab4"><div class="bg-servicios service-box">
 <h4>Capacitación profesional</h4><br><h5>Formación con salida laboral</h5>
+</div></a>
+
+<a href="#psicoestetica" data-toggle="tab" role="tab" aria-controls="tab5"><div class="bg-servicios service-box">
+<h4>Psicoestética</h4><br><h5>Acompasando la imagen con la vida</h5>
 </div></a>
 
 

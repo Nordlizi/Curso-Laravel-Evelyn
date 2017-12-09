@@ -142,6 +142,7 @@
           <li><a class="smoothScroll" href="#servicios">Servicios</a></li>
           <!-- <li><a class="smoothScroll" href="#historias">Historias</a></li> /-->
           <li><a class="smoothScroll" href="#contacto">Contacto</a></li>
+          <li><a href="http://evelynjeanette.blogspot.com.uy/" target="_blank"><span class=" glyphicon glyphicon-bullhorn" style="padding-right:10px;"></span>Mi blog</a></li>
         </ul>       
       </div>
       <!-- /.navbar-collapse -->
@@ -612,15 +613,17 @@
 
 
 <!-- mini-boxes -->
-<div role="tablist" class="container-fluid visible-xs wow fadeInUp delay1 nav nav-tabs" style="border-bottom:none;">
+<div role="tablist" class="service-box-container visible-xs wow fadeInUp delay1 nav nav-tabs" style="border-bottom:none;">
 <a href="#consultas" data-toggle="tab" role="tab" aria-controls="tab1">
-<div class="service-minibox col-xs-3 active">1</div></a>
+<div class="service-minibox active">Consultas individuales</div></a>
 <a href="#talleres" data-toggle="tab" role="tab" aria-controls="tab2">
-<div class="service-minibox col-xs-3">2</div></a>
+<div class="service-minibox ">Talleres</div></a>
 <a href="#empresarial" data-toggle="tab" role="tab" aria-controls="tab3">
-<div class="service-minibox col-xs-3">3</div></a>
+<div class="service-minibox ">Servicio empresarial</div></a>
 <a href="#capacitacion" data-toggle="tab" role="tab" aria-controls="tab4">
-<div class="service-minibox col-xs-3">4</div></a>
+<div class="service-minibox ">Capacitación profesional</div></a>
+<a href="#psicoestetica" data-toggle="tab" role="tab" aria-controls="tab5">
+<div class="service-minibox ">Psicoestética</div></a>
 </div>
 
 
@@ -663,26 +666,38 @@ Ofrezco con experiencia y formación, la capacitación adecuada en cuanto a la e
 -Números y vida.<br>
 </p></div>
 
+<div role="tabpanel" class="tab-pane fade" id="psicoestetica">
+<h4><span class="glyphicon glyphicon-chevron-right color-servicios" style="font-size:70%"></span> Psicoestética</h4><p>
+Acompasando la imagen con la vida.<br><br>
+
+Los años pasan y van generando cambios, no sólo a nivel físico, sino en la manera de comprender la vida.<br>
+Actualizar tu imagen es acompasar tu interioridad.<br>
+</p></div>
+
 </div><!-- /service datos row -->
 
 
 <!-- service boxes row -->
-<div role="tablist" class="container-fluid hidden-xs wow fadeInUp delay3 nav nav-tabs" style="border-bottom:none; padding-top:10px; padding-bottom:20px;">
+<div role="tablist" class="service-box-container hidden-xs wow fadeInUp delay3 nav nav-tabs" style="border-bottom:none; padding-top:10px; padding-bottom:20px;">
 
-<a href="#consultas" data-toggle="tab" role="tab" aria-controls="tab1"><div class="bg-servicios service-box col-xs-6 col-lg-3 active">
+<a href="#consultas" data-toggle="tab" role="tab" aria-controls="tab1"><div class="bg-servicios service-box active">
 <h4>Consultas individuales</h4><br><h5>Niños, adolescentes o adultos</h5>
 </div></a>
 
-<a href="#talleres" data-toggle="tab" role="tab" aria-controls="tab2"><div class="bg-servicios service-box col-xs-6 col-lg-3">
+<a href="#talleres" data-toggle="tab" role="tab" aria-controls="tab2"><div class="bg-servicios service-box">
 <h4>Talleres</h4><br><h5>Individuales o colectivos</h5>
 </div></a>
 
-<a href="#empresarial" data-toggle="tab" role="tab" aria-controls="tab3"><div class="bg-servicios service-box col-xs-6 col-lg-3">
+<a href="#empresarial" data-toggle="tab" role="tab" aria-controls="tab3"><div class="bg-servicios service-box">
 <h4>Servicio empresarial</h4><br><h5>Talleres motivacionales de equipo</h5>
 </div></a>
 
-<a href="#capacitacion" data-toggle="tab" role="tab" aria-controls="tab4"><div class="bg-servicios service-box col-xs-6 col-lg-3">
+<a href="#capacitacion" data-toggle="tab" role="tab" aria-controls="tab4"><div class="bg-servicios service-box">
 <h4>Capacitación profesional</h4><br><h5>Formación con salida laboral</h5>
+</div></a>
+
+<a href="#psicoestetica" data-toggle="tab" role="tab" aria-controls="tab5"><div class="bg-servicios service-box">
+<h4>Psicoestética</h4><br><h5>Acompasando la imagen con la vida</h5>
 </div></a>
 
 
@@ -751,6 +766,7 @@ Ofrezco con experiencia y formación, la capacitación adecuada en cuanto a la e
        <p class="text-footer-normal"><span class="glyphicon glyphicon-envelope color-white" style="font-size:120%; padding-right:10px;"></span> evelyn1405@gmail.com</p>
        <p class="text-footer-normal"><span class="glyphicon glyphicon-earphone color-white" style="font-size:120%; padding-right:10px;"></span> 2400 06 59</p>
        <p class="text-footer-normal"><span class="glyphicon glyphicon-phone color-white" style="font-size:120%; padding-right:10px;"></span> 099 298 639</p>
+       <a href="http://evelynjeanette.blogspot.com.uy/" target="_blank" class="blog-link"><p class="text-footer-normal"><span class="glyphicon glyphicon-bullhorn color-white" style="font-size:120%; padding-right:10px;"></span> mi blog</p></a>
       </div>
     </div>
 
