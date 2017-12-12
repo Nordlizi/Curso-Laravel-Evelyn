@@ -741,6 +741,10 @@ a>div.service-box{
   border: 4px solid white;
   min-height: 200px;
 }
+@media (min-width:1730px){
+  a>div.service-box{
+      min-height: 100px;
+}}
 a>div.service-box.active{
   background-color:#60a4e2;}
  a>div.service-box.active:before{
@@ -780,6 +784,26 @@ div.service-box > h5{
   text-align:right;
   outline:none;
   text-decoration: none !important;
+}
+
+div.service-box-container a div.service-box h4,
+div.service-box-container a div.service-box h5{
+  text-decoration: none !important;
+  outline: none !important;
+}
+div.service-box-container a div.service-box:focus h4,
+div.service-box-container a div.service-box:focus h5{
+  text-decoration: none !important;
+  outline: none !important;
+}
+div.service-box-container a:focus div.service-box h4,
+div.service-box-container a:focus div.service-box h5{
+  text-decoration: none !important;
+  outline: none !important;
+}
+a:focus{
+  text-decoration: none !important;
+  outline: none !important;
 }
 
 a>div.service-minibox{
